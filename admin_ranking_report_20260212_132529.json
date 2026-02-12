@@ -1,0 +1,658 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-12T13:25:32.127230",
+    "total_admins": 60,
+    "formula_used": "lambda = cr50 + 1/cdt50 + r50 + 1/lr1m",
+    "data_source": "Hasura GraphQL - db.subspace.money"
+  },
+  "summary_statistics": {
+    "avg_lambda_score": 6.731114502903063,
+    "max_lambda_score": 12.5,
+    "min_lambda_score": 1.0,
+    "std_lambda_score": 2.9830198112914323,
+    "avg_cr50": 1.5615079365079365,
+    "avg_cdt50_inverse": 0.02858581484723047,
+    "avg_r50": 4.141020751547896,
+    "avg_lr1m_inverse": 1.0
+  },
+  "rankings": [
+    {
+      "admin_id": "d4954e03-e69e-4432-950b-0b6e3bd051ae",
+      "cr50": 5.0,
+      "cdt50_inverse": 1.5,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 12.5,
+      "admin_name": "🌷Ayansh🌷",
+      "rank": 1
+    },
+    {
+      "admin_id": "04afba10-e5b8-4545-a631-d84956ad8014",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.0033333333333333335,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 11.003333333333334,
+      "admin_name": "Pratap R",
+      "rank": 2
+    },
+    {
+      "admin_id": "07e3f2e0-c519-42c2-8106-09a334a9dd61",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.0002744811000156846,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 11.000274481100016,
+      "admin_name": "Himanshu",
+      "rank": 3
+    },
+    {
+      "admin_id": "a86a2680-cb4d-48d8-91fd-3e39cecd9ff1",
+      "cr50": 4.857142857142857,
+      "cdt50_inverse": 0.05263157894736842,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.909774436090224,
+      "admin_name": "Gautam Kumar",
+      "rank": 4
+    },
+    {
+      "admin_id": "2a3d6e90-4269-4aec-ac60-b81ed0cdf5e9",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.005333333333333333,
+      "r50": 4.902439024390244,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.907772357723577,
+      "admin_name": "Himanshu",
+      "rank": 5
+    },
+    {
+      "admin_id": "2a854e55-e877-4d66-a292-1d78815d5e7f",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.004188272836059034,
+      "r50": 4.809523809523809,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.813712082359867,
+      "admin_name": "Asish Lenka",
+      "rank": 6
+    },
+    {
+      "admin_id": "0d711f7c-c47e-4983-b695-0ca775a008f6",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.08888888888888889,
+      "r50": 4.6923076923076925,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.781196581196582,
+      "admin_name": "Kashvi Kumari",
+      "rank": 7
+    },
+    {
+      "admin_id": "4bad9af5-3fe9-4b2c-9b12-ac51bd0aa3e9",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.0030303030303030303,
+      "r50": 4.6,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.603030303030302,
+      "admin_name": "Madhaba Lenka",
+      "rank": 8
+    },
+    {
+      "admin_id": "bf81412b-442e-461a-bf27-dede0de59ba6",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.0006939625260235947,
+      "r50": 4.6,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.600693962526023,
+      "admin_name": "MD Siraj 🇮🇳",
+      "rank": 9
+    },
+    {
+      "admin_id": "08850e44-3298-451f-a473-7b96eeae03e9",
+      "cr50": 4.5,
+      "cdt50_inverse": 0.0022038567493112946,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.502203856749311,
+      "admin_name": "Rama Ray",
+      "rank": 10
+    },
+    {
+      "admin_id": "0243061f-3f5f-47d2-a96a-54fb4f6f07ba",
+      "cr50": 4.333333333333333,
+      "cdt50_inverse": 0.0030303030303030303,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.336363636363636,
+      "admin_name": "Amit",
+      "rank": 11
+    },
+    {
+      "admin_id": "34f04a4e-d7c2-48b8-84f1-aa9b7bc3605e",
+      "cr50": 4.5,
+      "cdt50_inverse": 0.0003070040787684751,
+      "r50": 4.769230769230769,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.269537773309537,
+      "admin_name": "Tarun Rawat",
+      "rank": 12
+    },
+    {
+      "admin_id": "21c3394f-f66e-4a23-9283-6a3ebdc7e02e",
+      "cr50": 4.5,
+      "cdt50_inverse": 0.00021825396825396825,
+      "r50": 4.709677419354839,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.209895673323093,
+      "admin_name": "Yogesh kumar Saini",
+      "rank": 13
+    },
+    {
+      "admin_id": "7a577e9b-928f-47e3-9e58-283862df9ddc",
+      "cr50": 4.0,
+      "cdt50_inverse": 0.005,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.004999999999999,
+      "admin_name": "Suman ",
+      "rank": 14
+    },
+    {
+      "admin_id": "a0ab1de8-5bfd-4e51-a9ca-77191ca95837",
+      "cr50": 4.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.0,
+      "admin_name": "Devil",
+      "rank": 15
+    },
+    {
+      "admin_id": "8eae2591-24fd-4112-8a28-167129cd4072",
+      "cr50": 4.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 10.0,
+      "admin_name": "karthik",
+      "rank": 16
+    },
+    {
+      "admin_id": "1b4dda47-c525-4235-b95d-bd2be71c9010",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.0011111111111111111,
+      "r50": 3.6666666666666665,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 9.667777777777777,
+      "admin_name": "Ashwin Narayan ",
+      "rank": 17
+    },
+    {
+      "admin_id": "ad523c3b-a80b-4ac2-9b54-c590c090b060",
+      "cr50": 3.0,
+      "cdt50_inverse": 0.0004761904761904762,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 9.00047619047619,
+      "admin_name": "Luffy",
+      "rank": 18
+    },
+    {
+      "admin_id": "c1c569a0-48cb-41f3-a00c-7f09560c32f9",
+      "cr50": 2.0,
+      "cdt50_inverse": 0.0008333333333333334,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 8.000833333333333,
+      "admin_name": "Jack",
+      "rank": 19
+    },
+    {
+      "admin_id": "6d1a4fcf-2c42-48cb-80d8-5433c9d86e2a",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.03314917127071823,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.033149171270718,
+      "admin_name": "ANSHIKA 💎",
+      "rank": 20
+    },
+    {
+      "admin_id": "7b880028-cc1f-4ce1-8a39-3809268b2846",
+      "cr50": 5.0,
+      "cdt50_inverse": 0.0016666666666666668,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.001666666666667,
+      "admin_name": "User",
+      "rank": 21
+    },
+    {
+      "admin_id": "a5193b9a-797d-42dc-abf0-920c179b983a",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0008333333333333334,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0008333333333335,
+      "admin_name": "Aashi singh",
+      "rank": 22
+    },
+    {
+      "admin_id": "f7654e53-07a4-41ed-9101-b8920d4c5fab",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0006677350427350427,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.000667735042735,
+      "admin_name": "Shantanu",
+      "rank": 23
+    },
+    {
+      "admin_id": "aad65daa-3a39-42be-af9b-6401ec07ed48",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.00016666666666666666,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.000166666666667,
+      "admin_name": "Neha",
+      "rank": 24
+    },
+    {
+      "admin_id": "34a99095-bd84-4883-ac9a-799e9b7357f8",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "King",
+      "rank": 25
+    },
+    {
+      "admin_id": "ebf7acdf-8d8f-4389-a101-9c0862eb6f0a",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Rishi Kumar",
+      "rank": 26
+    },
+    {
+      "admin_id": "bb482ef1-15f3-4068-9b5b-ae9fa0f10f31",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Navya kumari",
+      "rank": 27
+    },
+    {
+      "admin_id": "93e77c48-bc24-4083-ab92-374c88b41fba",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Nasrul Amin",
+      "rank": 28
+    },
+    {
+      "admin_id": "fe5e02f9-5efe-4e37-bca7-0693436bec48",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Rajveer Rathore ",
+      "rank": 29
+    },
+    {
+      "admin_id": "f5e33771-d1df-41e4-ba56-a01822e74be7",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Chemirthi Raju",
+      "rank": 30
+    },
+    {
+      "admin_id": "4dce501f-ae37-43cc-8619-c1a7046ebc0a",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Vikram",
+      "rank": 31
+    },
+    {
+      "admin_id": "be1b4613-4535-48f6-b751-535c3efdff20",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Rajkishor",
+      "rank": 32
+    },
+    {
+      "admin_id": "dfbcf410-4b20-43d7-8139-c02f0cc078e4",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Rinki Devi",
+      "rank": 33
+    },
+    {
+      "admin_id": "31286ba1-9be8-447a-b370-42bdc9a0e9f4",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Sourav",
+      "rank": 34
+    },
+    {
+      "admin_id": "7a6add5c-8b3a-4558-8324-e3f2acdfcf24",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Abhishek Ashtekar",
+      "rank": 35
+    },
+    {
+      "admin_id": "2170f5a8-4825-4b54-87ab-27c9c73e6c01",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Aarohi Jain",
+      "rank": 36
+    },
+    {
+      "admin_id": "55ff79e9-0026-4b32-8972-52e4f673d8d4",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Siddhu",
+      "rank": 37
+    },
+    {
+      "admin_id": "33df7d9e-4b8f-4c69-bdf4-456f6e5c84cf",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Sahil",
+      "rank": 38
+    },
+    {
+      "admin_id": "a467dbc5-8de9-4820-adc8-75f2e892d387",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Kannikasre",
+      "rank": 39
+    },
+    {
+      "admin_id": "f12131de-3208-4de7-9f8f-718cccbda3c8",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "⚜️Reyansh⚜️",
+      "rank": 40
+    },
+    {
+      "admin_id": "61fe7c64-3349-4250-9019-8b9924bc2ba7",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Aniket Kumar",
+      "rank": 41
+    },
+    {
+      "admin_id": "7e3d8637-77a8-48b4-b994-87835a27d536",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Aman Singh",
+      "rank": 42
+    },
+    {
+      "admin_id": "442c297d-2a12-4d3d-ac58-5b613477f366",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "MR. Jairajpuri",
+      "rank": 43
+    },
+    {
+      "admin_id": "5274c40e-6eab-4d6b-92c7-74abf283a56e",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Alka/Prince",
+      "rank": 44
+    },
+    {
+      "admin_id": "e7725697-39a9-49f0-a8ed-3ca9d973f5b0",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Jaksh",
+      "rank": 45
+    },
+    {
+      "admin_id": "d0e95a97-8670-4b50-8eaf-f55d258285ee",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "Raahi",
+      "rank": 46
+    },
+    {
+      "admin_id": "b4fca066-b14a-44de-8afa-cdbac00891c6",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 5.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 6.0,
+      "admin_name": "shriya",
+      "rank": 47
+    },
+    {
+      "admin_id": "4627a748-c563-4f33-8231-52a41a175d7f",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 4.666666666666667,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 5.666666666666667,
+      "admin_name": "Duraisamy Manikandan",
+      "rank": 48
+    },
+    {
+      "admin_id": "ab833f15-ed5f-49a7-b941-c1ab95cb50c9",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 4.555555555555555,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 5.555555555555555,
+      "admin_name": "Ramesh yadav",
+      "rank": 49
+    },
+    {
+      "admin_id": "2496e320-990a-45da-a3e0-15cd46eee798",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0044444444444444444,
+      "r50": 4.428571428571429,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 5.433015873015873,
+      "admin_name": "Anupam Ray",
+      "rank": 50
+    },
+    {
+      "admin_id": "0e9c3a46-847c-4776-8775-be27716a6a96",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 4.333333333333333,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 5.333333333333333,
+      "admin_name": "ANJALI KUMARI",
+      "rank": 51
+    },
+    {
+      "admin_id": "43502758-8b86-4d7e-8602-cc1aef1ba817",
+      "cr50": 4.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 5.0,
+      "admin_name": "Priya",
+      "rank": 52
+    },
+    {
+      "admin_id": "729aa20d-d7e7-4c83-8402-d25193767e23",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0026666666666666666,
+      "r50": 3.727272727272727,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 4.729939393939394,
+      "admin_name": "Anupam",
+      "rank": 53
+    },
+    {
+      "admin_id": "b53767a8-aee4-4b2a-a5b5-ed376b07b93f",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Sushma",
+      "rank": 54
+    },
+    {
+      "admin_id": "a4b8cac3-2752-44e3-aaaf-3da4540bd024",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Prateek Rawat",
+      "rank": 55
+    },
+    {
+      "admin_id": "b503c976-e85e-4583-ae01-f4ec490e2445",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Ragsan",
+      "rank": 56
+    },
+    {
+      "admin_id": "d5d459b6-242f-4e3a-a970-da573d97a2fa",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Sunitha",
+      "rank": 57
+    },
+    {
+      "admin_id": "d51a4bd7-154f-4de5-bf48-690bf29daed2",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Sahitya Raj Keshari",
+      "rank": 58
+    },
+    {
+      "admin_id": "5e5241a2-1256-46a8-8450-b8293c2b801a",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Prad",
+      "rank": 59
+    },
+    {
+      "admin_id": "46cfd05e-5975-461b-8515-93b776648e1c",
+      "cr50": 0.0,
+      "cdt50_inverse": 0.0,
+      "r50": 0.0,
+      "lr1m_inverse": 1.0,
+      "lambda_score": 1.0,
+      "admin_name": "Roy",
+      "rank": 60
+    }
+  ],
+  "detailed_analysis": {
+    "performance_distribution": {
+      "excellent": 12,
+      "good": 12,
+      "average": 23,
+      "below_average": 13
+    },
+    "component_analysis": {
+      "strongest_in_call_rating": "🌷Ayansh🌷",
+      "fastest_delivery": "🌷Ayansh🌷",
+      "best_chat_rating": "🌷Ayansh🌷",
+      "highest_availability": "🌷Ayansh🌷"
+    },
+    "improvement_opportunities": {
+      "low_call_ratings": [],
+      "slow_delivery": [],
+      "low_chat_ratings": [
+        "Kashvi Kumari",
+        "Madhaba Lenka",
+        "MD Siraj 🇮🇳",
+        "Ashwin Narayan ",
+        "User",
+        "Duraisamy Manikandan",
+        "Ramesh yadav",
+        "Anupam Ray",
+        "ANJALI KUMARI",
+        "Priya",
+        "Anupam",
+        "Sushma",
+        "Prateek Rawat",
+        "Ragsan",
+        "Sunitha",
+        "Sahitya Raj Keshari",
+        "Prad",
+        "Roy"
+      ]
+    }
+  }
+}
